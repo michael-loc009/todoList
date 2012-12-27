@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>      
 <title> Todo </title>
@@ -12,14 +13,15 @@
     <div id="wrapper">
         
         <div id="header">
-            <img id="logo" class="homePageLogo" src="img/logo.png" alt="TODO LIST" />
+            <a href="./"><img id="logo" class="homePageLogo" src="img/logo.png" alt="TODO LIST" /></a>
         </div>
         
-        <form id="form" action="scripts/signupScripts.php" method="POST">
+        <form id="form" action="scripts/signupScript.php" method="POST">
             
             <input type="text" name="firstname" value="First Name"/>
             <input type="text" name="lastname" value="Last Name" />
             <input type="text" name="email" value="Email"   />
+            <input type="password" name="password" value="abcdefg"/>
             <input type="submit" value="signup" />
             
         </form>

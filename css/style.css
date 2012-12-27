@@ -59,16 +59,17 @@ body {
 .loginButton {
 }
 
+form.add {
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
 .actionButtons {
-    text-align: center;
     padding-bottom: 20px;
 }
 
-.actionButtons p {
-    display: inline;
-}
-
-.actionButtons input {
+.addItem {
     width: 50px;
     height: 30px;
     border: solid 1px #e3e3e3;
